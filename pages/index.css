@@ -1,6 +1,32 @@
+* {
+    margin: 0%;
+    border: 0%;
+}
+
+.container{
+}
+
 .cabecalho{
     width: 100%;
     height: 5%;
-    display: block;
     background-color: #E9E3CE;
+}
+
+#menu1{
+}
+
+#logo{
+    display: inline-block;
+    width: 80px;
+    right: 80px;
+}
+
+.rodape{
+    background-color: #E9E3CE;
+    border: black;
+    height: 50px;
+}
+
+#redes{
+    
 }
