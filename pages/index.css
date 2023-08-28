@@ -12,14 +12,17 @@
 .cabecalho{
     width: 100%;
     height: 5%;
-    background-color: #E9E3CE;
+
 }
 
 #menu1{
+    float: right;
+    display: flex;
+    width: auto;
 }
 
 #logo{
-    display: inline-block;
+    display: flex;
     width: 80px;
     right: 80px;
 }
