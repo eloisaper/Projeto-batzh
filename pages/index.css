@@ -4,6 +4,8 @@
 }
 
 .container{
+    grid-template-columns: 20% 80%;
+    grid-template-rows: auto;
 }
 
 .cabecalho{
@@ -25,8 +27,5 @@
     background-color: #E9E3CE;
     border: black;
     height: 50px;
-}
-
-#redes{
-    
+    display: flex;
 }
