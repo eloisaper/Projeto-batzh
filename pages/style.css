@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Cinzel', serif;
+    font-family: 'Nunito Sans', sans-serif;
 }
 nav{
     background-color: #E9E3CE;
@@ -58,4 +58,16 @@ footer{
     border: black;
     height: 50px;
     display: flex;
+}
+footer ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+footer li{
+    margin-left: 15px;
+}
+.botrede{
+
 }
