@@ -35,7 +35,7 @@ nav li a{
 }
 nav li a:hover{
     background-color: #a39973;
-    font-style: oblique;
+    font-style: inherit;
 }
 .botlogin{
     background: #F5F1E2;
