@@ -29,7 +29,7 @@ nav li a{
     text-decoration: none;
     color: black;
     font-size: 17px;
-    font-weight: 500;
+    font-weight: 500px;
     padding: 8px 10px;
     border-radius: 5px;
     transition: 0.3s;
@@ -38,6 +38,7 @@ nav li a:hover{
     background-color: #a39973;
     color: white;
     box-shadow: 5px 5px 5px #938f8f;
+    transition: 0.3s;
 }
 .botlogin{
     background: #F5F1E2;
@@ -49,12 +50,35 @@ nav li a:hover{
     height: 35px;
     width: 90px;
     margin-right: -70px;
+    transition: 0.3s;
 }
 .botlogin:hover{
     background-color: #a39973;
     color: white;
     box-shadow: 5px 5px 5px #938f8f;
     border: hidden;
+    cursor: pointer;
+
+}
+.inicial{
+    display: grid;
+    grid-template-columns: 250px 250px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.rank{
+    border-color: black;
+    border-radius: 90px;
+    height: 90px;
+    width: 35px;
+}
+.carrousel{
+    border-color: black;
+    border-radius: 90px;
+    height: 90px;
+    width: 35px;
 }
 footer{
     background-color: #E9E3CE;
@@ -83,4 +107,12 @@ footer li{
     height: 50px;
     width: 50px;
     align-items: center;
+    transition: 0.3s;
+}
+.botrede:hover{
+    background-color: #ffffff;
+    color-scheme: white;
+    box-shadow: 5px 5px 5px #938f8f;
+    border: hidden;
+    cursor: pointer;
 }
