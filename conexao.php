@@ -10,6 +10,4 @@
             mysqli_connect_error());
         exit();
     }
-
-    echo $con;
 ?>   
