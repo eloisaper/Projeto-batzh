@@ -34,7 +34,8 @@ nav li a{
     transition: 0.3s;
 }
 nav li a:hover{
-    font-weight: bold;
+    background-color: #a39973;
+    color: white;
 }
 .botlogin{
     background: #F5F1E2;
