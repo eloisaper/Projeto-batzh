@@ -5,7 +5,7 @@
 
     $sql = "SELECT * FROM USUARIO
             WHERE email_usuario = '$email'
-                AND senha       = '$senha'";
+                AND senha_usuario       = '$senha'";
     $result = mysqli_query($con,$sql);
     $rowcount = mysqli_num_rows($result);
     if($rowcount > 0){
@@ -13,7 +13,7 @@
         // array com os dados do usuário que estão no banco
         $_SESSION['login'] = mysqli_fetch_array($result);
         // Volta para a página inicial
-        header('Location: index.php');
+        header('Location: index.html');
     }
     else 
     {

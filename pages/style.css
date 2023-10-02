@@ -84,7 +84,20 @@ footer{
     background-color: #E9E3CE;
     border: black;
     display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem; 
 }
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  #content-wrap {
+    padding-bottom: 2.5rem;    /* altura do rodapé */
+  }
+
 footer ul{
     display: flex;
     align-items: center;
@@ -111,6 +124,78 @@ footer li{
 }
 .botrede:hover{
     background-color: #ffffff;
+    color-scheme: white;
+    box-shadow: 5px 5px 5px #938f8f;
+    border: hidden;
+    cursor: pointer;
+}
+.botemp1{
+    margin: 20px;
+    padding: 10px;
+    background-color: #F5F1E2;
+    color: black;
+    border-color: #0000;
+    border: 1.7px solid;
+    border-radius: 90px;
+    align-items: center;
+    transition: 0.3s;
+}
+.botemp1 p{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 500px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.botemp1 h1{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: 500px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.botemp1:hover{
+    background-color: #a39973;
+    color-scheme: white;
+    box-shadow: 5px 5px 5px #938f8f;
+    border: hidden;
+    cursor: pointer;
+}
+.botemp2{
+    margin: 20px;
+    padding: 10px;
+    background-color: #F5F1E2;
+    color: black;
+    border-color: #0000;
+    border: 1.7px solid;
+    border-radius: 90px;
+    align-items: center;
+    transition: 0.3s;
+}
+.botemp2 p{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 500px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.botemp2 h1{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: 500px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.botemp2:hover{
+    background-color: #a39973;
     color-scheme: white;
     box-shadow: 5px 5px 5px #938f8f;
     border: hidden;
