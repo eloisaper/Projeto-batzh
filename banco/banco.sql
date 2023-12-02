@@ -35,7 +35,8 @@ create table produto (
 
 create table categoria (
 	id_categoria int auto_increment primary key,
-	nome_categoria varchar(50) not null);
+	nome_categoria varchar(50) not null
+);
 
 create table pedido (
 	id_pedido int auto_increment primary key,

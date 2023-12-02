@@ -10,4 +10,7 @@
             mysqli_connect_error());
         exit();
     }
+    else {
+        echo "conexão efetuada";
+    }
 ?>   
